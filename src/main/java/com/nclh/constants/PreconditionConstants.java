@@ -1,0 +1,52 @@
+package com.nclh.constants;
+
+public class PreconditionConstants {
+
+    public static final String CHECK_IN_TXT = "Check-in";
+    public static final String CREATE_CREW_RESERVATION_TXT = "CREATE CREW RESERVATION";
+    public static final String CREATE_GUEST_RESERVATION_TXT = "CREATE GUEST RESERVATION";
+//    public static final String FM_FIRST_NAME = "XXXAuto";
+//public static final String FM_LAST_NAME = "XXXGuest";
+    public static final String FM_FIRST_NAME = "XXXQA96";
+    public static final String FM_LAST_NAME = "XXXAUTOMATION96";
+    public static final String ROUTING_FIRST_NAME = "XXXRout";
+    public static final String EMBARKATION_DATE_LABEL_TXT = "Embarkation Date";
+    public static final String DISEMBARKATION_DATE_LABEL_TXT = "Disembarkation Date";
+    public static final int DISEMBARKATION_DATE_MONTH = 4;
+    public static final String SAVE_NEXT_OPTIONAL_TXT = "Save & Next (optional)";
+    public static final String  FM_CABIN_NUMBER= "650";
+    public static final String DOC_EXPIRY_DATE_TXT = "Expiry Date";
+    public static final String ISSUE_DATE = "Issue Date";
+    public static final String BIRTH_DATE = "Birth Date";
+    public static final int GUEST_BIRTH_DATE_MONTH = 24;
+    public static final String SAVE_AND_FINISH_TXT = "Save & Finish";
+    public static final String GENDER_DROPDOWN_TXT = "Gender";
+    public static final String MALE_FIELD_TXT = "Male";
+    public static final String CONFIRM_BTN_TXT = "Confirm";
+    public static final String CANCEL_BTN_TXT = "Cancel";
+    public static final int DOC_EXPITY_DATE_MONTH_VALUE = 10;
+    public static String NEWLY_CREATED_GUEST_FIRSTNAME = "";
+    public static String NEWLY_CREATED_GUEST_LASTNAME = "";
+    public static String NEWLY_CREATED_GUEST_FULLNAME = "";
+    public static String NEWLY_CREATED_ROUTING_GUEST_FIRSTNAME = "";
+    public static String NEWLY_CREATED_ROUTING_GUEST_LASTNAME = "";
+    public static String NEWLY_CREATED_ROUTING_GUEST_FULLNAME = "";
+    public static final String PROFILE_CHECK_IN_TXT = "Check In";
+    public static final String ROUTING_GUEST_NAME ="Auto-02e1d704";
+    public static final String  CRUISE_INFORMATION = "Cruise Information";
+    public static final String  NEW_RESERVATION = "New Reservation";
+    public static final String  NATIONALITY = "Nationality";
+    public static final String  DATE_OF_BIRTH = "Date of Birth";
+    public static final String  SAVE_AND_OPEN_PROFILE = "Save & Open Profile";
+    public static final String  SHORESIDE = "Shoreside";
+    public static final String  ASSIGNMENTS_AND_CONTRACT_INFORMATION = "Assignments and Contract Information";
+    public static final String  SAVE = "Save";
+    public static final String  GANGWAY_MOVEMENT = "Gangway Movement";
+    public static final String  CHECKED_IN_ON_BOARD = "Checked In / On Board";
+    public static String NEWLY_CREATED_MULTI_GUEST_FIRSTNAME = "";
+    public static String NEWLY_CREATED_MULTI_GUEST_LASTNAME = "";
+    public static String NEWLY_CREATED_GUEST2_LASTNAME = "";
+    public static String YES = "Yes";
+    public static final int MINOR_GUEST_BIRTH_DATE_MONTH = 14;
+    public static String GOLDEN_ID = "7861234567";
+}

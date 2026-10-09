@@ -1,0 +1,13 @@
+.idea
+target
+test-output
+NCLHAutomationFramework.iml
+testRailImages
+downloads
+allure-results
+ config/
+src/test/java/com/nclh/runners/TestRunner.java
+.vscode/
+src/test/resources/.cucumber+
+*.pdf
+logs

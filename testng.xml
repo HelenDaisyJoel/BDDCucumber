@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CucumberRunner" parallel="tests" thread-count="5">
+    <!--thread-count="5" -->
+        <listeners>
+            <listener class-name="com.nclh.retryFailedTests.AnnotationTransformer"/>
+        </listeners>
+    <test verbose="2" preserve-order="true" name="Smoke">
+        <classes>
+            <class name="com.nclh.runners.TestRunner"/>
+            <class name="com.nclh.runners.FailTestRunner"/>
+            <class name="com.nclh.runners.FailRetryRunner"/>
+        </classes>
+    </test>
+</suite>
